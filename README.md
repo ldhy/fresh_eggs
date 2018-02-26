@@ -63,7 +63,7 @@ Lot fonctionnel 8 – Supprimer des recettes
 
 US9 : en tant qu’auteur, je veux supprimer une de mes recettes pour «faire valoir mon droit de suppression»
 
-Lot fonctionnel 9 – Date limite de conso extra frais
+Lot fonctionnel 9 – Date limite de conso extra frais avec calendrier
 
 US10: en tant que visiteur, je veux entrer la DCR de mes œufs pour connaître la date limite en extra frais via un calendrier
 /connaître la date de limite de consommation en extra frais de mes œufs pour pouvoir réaliser des recettes avec des œufs extra frais
@@ -74,7 +74,7 @@ DCR - 28j + 9j
 DCR - 28j - 10j
 3. rouge : période au-delà de la DCR
 
-Lot fonctionnel 10 – DCR
+Lot fonctionnel 10 – DCR avec calendrier
 
 US11 : en tant que visiteur, je veux rentrer ma date voulue de fin maximum en extra frais pour connaître la DCR 
 /connaître la DCR pour acheter la boîte optimale à acheter selon mes besoins de «durabilité» en extra frais
@@ -96,3 +96,12 @@ US13 : en tant que membre, je veux trier les recettes pour trouver celles selon 
 1. œufs extra frais
 2. œufs frais
 3. mieux notées
+
+Lot fonctionnel 11 – Parcourir et lire des informations sur les œufs
+
+US14 : en tant que membre, je veux parcourir et lire des informations sur les œufs
+
+La maquette de la page d'accueil:
+https://wireframe.cc/MHAgqH
+
+
