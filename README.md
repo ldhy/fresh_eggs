@@ -3,16 +3,17 @@
 
 Description du projet :
 
-Informations clés : 
-DCR : Date de Consommation Recommandée
-DCR oeufs : 28j après la ponte (date indiquée sur la boîte des oeufs et sur les oeufs)
-Date limite de consommation des oeufs extra frais : 9j max après la ponte (jaune non cuit)
-Date limite de consommation des oeufs frais : de 10j à 28j après la ponte (oeuf entièrement cuit)
-
 Site permettant :
 - de connaître la date de limite de consommationd des oeufs en extra frais en entrant la DCR
 - de connaître la DCR maximale à choisir en entrant la date maximale voulue des oeufs en extra frais
 - des propositions de recettes
+
+Informations clés : 
+DCR : Date de Consommation Recommandée DCR oeufs : 
+28j après la ponte (date indiquée sur la boîte des oeufs et sur les oeufs) 
+Date limite de consommation des oeufs extra frais : 
+9j max après la ponte (jaune non cuit) 
+Date limite de consommation des oeufs frais : de 10j à 28j après la ponte (oeuf entièrement cuit)
 
 
 Lot fonctionnel 1 – Date limite de conso extra frais
