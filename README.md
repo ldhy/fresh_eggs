@@ -15,6 +15,9 @@ Date limite de consommation des oeufs extra frais :
 9j max après la ponte (jaune non cuit) 
 Date limite de consommation des oeufs frais : de 10j à 28j après la ponte (oeuf entièrement cuit)
 
+Slide de présentation du projet :
+https://slides.com/lauradel/fresh-eggs
+
 Lot fonctionnel 1 – Date limite de conso extra frais
 
 US1: en tant que visiteur, je veux entrer la DCR de mes œufs pour connaître la date limite en extra frais
@@ -106,6 +109,8 @@ https://trello.com/b/z5rtDGxp/fresh-eggs
 
 La maquette de la page d'accueil:
 https://wireframe.cc/MHAgqH
+
+
 
 
 
