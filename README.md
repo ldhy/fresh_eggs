@@ -100,9 +100,11 @@ US14 : en tant que membre, je veux trier les recettes pour trouver celles selon 
 3. mieux notées
 
 
-Lot fonctionnel 11 – Parcourir et lire des informations sur les œufs
+Lot fonctionnel 11 – Parcourir et lire les informations sur les œufs
 
-US15 : en tant que membre, je veux parcourir et lire des informations sur les œufs
+US15 : en tant que membre, je veux parcourir les informations sur les œufs pour les choisir
+
+US16 : en tant que membre, je veux lire les informations sur les oeufs pour m'informer
 
 
 Trello :
