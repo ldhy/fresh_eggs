@@ -54,20 +54,20 @@ US6 : en tant que membre, je veux lire des recettes extra frais/frais pour les r
 
 Lot fonctionnel 5 – Proposition aléatoire de recettes suite validation lot fonctionnel 1 ou lot fonctionnel 2
 
-US6 : en tant que membre, je veux pouvoir sauvegarder une recette proposée aléatoirement pour la retrouver dans mon espace membre
+US7 : en tant que membre, je veux pouvoir sauvegarder une recette proposée aléatoirement pour la retrouver dans mon espace membre
 /pour la réaliser plus tard éventuellement
 
 Lot fonctionnel 6 – Ajouter, modifier, supprimer des recettes
 
-US7 : en tant qu’auteur, je veux ajouter une de mes recettes pour la sauvegarder
+US8 : en tant qu’auteur, je veux ajouter une de mes recettes pour la sauvegarder
 
-US8 : en tant qu’auteur, je veux modifier une de mes recettes pour la rectifier, l’améliorer
+US9 : en tant qu’auteur, je veux modifier une de mes recettes pour la rectifier, l’améliorer
 
-US9 : en tant qu’auteur, je veux supprimer une de mes recettes pour «faire valoir mon droit de suppression»
+US10 : en tant qu’auteur, je veux supprimer une de mes recettes pour «faire valoir mon droit de suppression»
 
 Lot fonctionnel 7 – Date limite de conso extra frais avec calendrier
 
-US10: en tant que visiteur, je veux entrer la DCR de mes œufs pour connaître la date limite en extra frais via un calendrier
+US11: en tant que visiteur, je veux entrer la DCR de mes œufs pour connaître la date limite en extra frais via un calendrier
 /connaître la date de limite de consommation en extra frais de mes œufs pour pouvoir réaliser des recettes avec des œufs extra frais
 1. via le formulaire, calendrier qui se déploie :
 1. vert : période extra frais 
@@ -78,7 +78,7 @@ DCR - 28j - 10j
 
 Lot fonctionnel 10 – DCR avec calendrier
 
-US11 : en tant que visiteur, je veux rentrer ma date voulue de fin maximum en extra frais pour connaître la DCR 
+US12 : en tant que visiteur, je veux rentrer ma date voulue de fin maximum en extra frais pour connaître la DCR 
 /connaître la DCR pour acheter la boîte optimale à acheter selon mes besoins de «durabilité» en extra frais
 1. via le formulaire, calendrier qui se déploie :
 1. vert : période extra frais 
@@ -90,11 +90,11 @@ DCR - 28j - 10j
 
 Lot fonctionnel 11 – Noter des recettes
 
-US12 : en tant que membre, je veux noter les recettes pour les valoriser et «interagir» avec le site
+US13 : en tant que membre, je veux noter les recettes pour les valoriser et «interagir» avec le site
 
 Lot fonctionnel 10 – Trier les recettes
 
-US13 : en tant que membre, je veux trier les recettes pour trouver celles selon mes besoins/envies 
+US14 : en tant que membre, je veux trier les recettes pour trouver celles selon mes besoins/envies 
 1. œufs extra frais
 2. œufs frais
 3. mieux notées
@@ -102,7 +102,7 @@ US13 : en tant que membre, je veux trier les recettes pour trouver celles selon 
 
 Lot fonctionnel 11 – Parcourir et lire des informations sur les œufs
 
-US14 : en tant que membre, je veux parcourir et lire des informations sur les œufs
+US15 : en tant que membre, je veux parcourir et lire des informations sur les œufs
 
 
 Trello :
