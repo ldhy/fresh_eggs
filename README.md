@@ -4,7 +4,7 @@
 Description du projet :
 
 Site permettant :
-- de connaître la date de limite de consommationd des oeufs en extra frais en entrant la DCR
+- de connaître la date de limite de consommation des oeufs en extra frais en entrant la DCR
 - de connaître la DCR maximale à choisir en entrant la date maximale voulue des oeufs en extra frais
 - des propositions de recettes
 
