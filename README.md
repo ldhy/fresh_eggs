@@ -22,7 +22,7 @@ https://slides.com/lauradel/fresh-eggs
 Lot fonctionnel 1 – Date limite de conso extra frais
 
 US1: en tant que visiteur, je veux entrer la DCR de mes œufs pour connaître la date limite en extra frais
-/connaître la date de limite de consommation en extra frais de mes œufs pour pouvoir réaliser des recettes avec des œufs extra frais
+/connaître la date de limite de consommation en extra frais de mes œufs réaliser des recettes avec des œufs extra frais
 1. via un formulaire rentrer la DCR (jour/mois/année)
 2. donne date de ponte : date limite conso -28j
 3. donne date limite conso extra frais : date limite conso -19j 
@@ -38,15 +38,15 @@ date limite en extra frais +21j
 
 Lot fonctionnel 3 – S’enregistrer / Se connecter 
 
-US3 : en tant que visiteur, je veux pouvoir m’enregistrer pour sauvegarder des recettes proposées à la suite de la validation du lot fonctionnel 1 ou lot fonctionnel 2
+US3 : en tant que visiteur, je veux m’enregistrer pour sauvegarder des recettes proposées à la suite de la validation du lot fonctionnel 1 ou lot fonctionnel 2
 1. via un formulaire d’inscription
 
-US4 : en tant que membre, je veux pouvoir me connecter pour sauvegarder des recettes proposées à la suite de la validation du lot fonctionnel 1 ou lot fonctionnel 2
+US4 : en tant que membre, je veux me connecter pour sauvegarder des recettes proposées à la suite de la validation du lot fonctionnel 1 ou lot fonctionnel 2
 1. via formulaire de login
 
 Lot fonctionnel 4 – Parcourir, lire des recettes
 
-US5 : en tant que membre, je veux pouvoir parcourir des recettes extra frais / frais pour les choisir
+US5 : en tant que membre, je veux parcourir des recettes extra frais / frais pour les choisir
 1. créer une base de données avec des recettes œufs extra frais
 2. créer une base de données avec des recettes œufs frais
 
@@ -54,7 +54,7 @@ US6 : en tant que membre, je veux lire des recettes extra frais/frais pour les r
 
 Lot fonctionnel 5 – Proposition aléatoire de recettes suite validation lot fonctionnel 1 ou lot fonctionnel 2
 
-US7 : en tant que membre, je veux pouvoir sauvegarder une recette proposée aléatoirement pour la retrouver dans mon espace membre
+US7 : en tant que membre, je veux sauvegarder une recette proposée aléatoirement pour la retrouver dans mon espace membre
 /pour la réaliser plus tard éventuellement
 
 Lot fonctionnel 6 – Ajouter, modifier, supprimer des recettes
@@ -68,7 +68,7 @@ US10 : en tant qu’auteur, je veux supprimer une de mes recettes pour «faire v
 Lot fonctionnel 7 – Date limite de conso extra frais avec calendrier
 
 US11: en tant que visiteur, je veux entrer la DCR de mes œufs pour connaître la date limite en extra frais via un calendrier
-/connaître la date de limite de consommation en extra frais de mes œufs pour pouvoir réaliser des recettes avec des œufs extra frais
+/connaître la date de limite de consommation en extra frais de mes œufs réaliser des recettes avec des œufs extra frais
 1. via le formulaire, calendrier qui se déploie :
 1. vert : période extra frais 
 DCR - 28j + 9j
@@ -105,6 +105,11 @@ Lot fonctionnel 11 – Parcourir et lire les informations sur les œufs
 US15 : en tant que membre, je veux parcourir les informations sur les œufs pour les choisir
 
 US16 : en tant que membre, je veux lire les informations sur les oeufs pour m'informer
+
+Lot fonctionnel 12 - Gestion de l'administrateur
+
+US17 : en tant qu'administrateur, je veux vérifier la validité des recettes pour avoir des recettes cohérentes sur/avec des oeufs
+
 
 
 Trello :
