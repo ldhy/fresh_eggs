@@ -18,6 +18,7 @@ Date limite de consommation des oeufs frais : de 10j à 28j après la ponte (oeu
 Slide de présentation du projet :
 https://slides.com/lauradel/fresh-eggs
 
+
 Lot fonctionnel 1 – Date limite de conso extra frais
 
 US1: en tant que visiteur, je veux entrer la DCR de mes œufs pour connaître la date limite en extra frais
@@ -45,30 +46,28 @@ US4 : en tant que membre, je veux pouvoir me connecter pour sauvegarder des rece
 
 Lot fonctionnel 4 – Parcourir, lire des recettes
 
-US5 : en tant que membre, je veux pouvoir parcourir et lire des recettes extra frais / frais pour les réaliser
+US5 : en tant que membre, je veux pouvoir parcourir des recettes extra frais / frais pour les choisir
 1. créer une base de données avec des recettes œufs extra frais
 2. créer une base de données avec des recettes œufs frais
+
+US6 : en tant que membre, je veux lire des recettes extra frais/frais pour les réaliser
 
 Lot fonctionnel 5 – Proposition aléatoire de recettes suite validation lot fonctionnel 1 ou lot fonctionnel 2
 
 US6 : en tant que membre, je veux pouvoir sauvegarder une recette proposée aléatoirement pour la retrouver dans mon espace membre
 /pour la réaliser plus tard éventuellement
 
-Lot fonctionnel 6 – Ajouter des recettes
+Lot fonctionnel 6 – Ajouter, modifier, supprimer des recettes
 
-US7 : en tant qu’auteur, je veux ajouter une de mes recettes pour la sauvegarder / partager
-
-Lot fonctionnel 7 – Modifier des recettes
+US7 : en tant qu’auteur, je veux ajouter une de mes recettes pour la sauvegarder
 
 US8 : en tant qu’auteur, je veux modifier une de mes recettes pour la rectifier, l’améliorer
 
-Lot fonctionnel 8 – Supprimer des recettes
-
 US9 : en tant qu’auteur, je veux supprimer une de mes recettes pour «faire valoir mon droit de suppression»
 
-Lot fonctionnel 9 – Date limite de conso extra frais avec calendrier
+Lot fonctionnel 7 – Date limite de conso extra frais avec calendrier
 
-US10: en tant que visiteur, je veux entrer la DCR de mes œufs pour connaître la date limite en extra frais via et sur un calendrier
+US10: en tant que visiteur, je veux entrer la DCR de mes œufs pour connaître la date limite en extra frais via un calendrier
 /connaître la date de limite de consommation en extra frais de mes œufs pour pouvoir réaliser des recettes avec des œufs extra frais
 1. via le formulaire, calendrier qui se déploie :
 1. vert : période extra frais 
@@ -79,7 +78,7 @@ DCR - 28j - 10j
 
 Lot fonctionnel 10 – DCR avec calendrier
 
-US11 : en tant que visiteur, je veux rentrer ma date voulue de fin maximum en extra frais pour connaître la DCR via et sur un calendrier
+US11 : en tant que visiteur, je veux rentrer ma date voulue de fin maximum en extra frais pour connaître la DCR 
 /connaître la DCR pour acheter la boîte optimale à acheter selon mes besoins de «durabilité» en extra frais
 1. via le formulaire, calendrier qui se déploie :
 1. vert : période extra frais 
@@ -91,7 +90,7 @@ DCR - 28j - 10j
 
 Lot fonctionnel 11 – Noter des recettes
 
-US12 : en tant que membre, je veux noter les recettes pour donner mon avis
+US12 : en tant que membre, je veux noter les recettes pour les valoriser et «interagir» avec le site
 
 Lot fonctionnel 10 – Trier les recettes
 
@@ -100,9 +99,11 @@ US13 : en tant que membre, je veux trier les recettes pour trouver celles selon 
 2. œufs frais
 3. mieux notées
 
+
 Lot fonctionnel 11 – Parcourir et lire des informations sur les œufs
 
 US14 : en tant que membre, je veux parcourir et lire des informations sur les œufs
+
 
 Trello :
 https://trello.com/b/z5rtDGxp/fresh-eggs
