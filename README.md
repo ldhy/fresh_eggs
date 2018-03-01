@@ -100,15 +100,9 @@ US14 : en tant que membre, je veux trier les recettes pour trouver celles selon 
 3. mieux notées
 
 
-Lot fonctionnel 11 – Parcourir et lire les informations sur les œufs
+Lot fonctionnel 11 - Gestion de l'administrateur
 
-US15 : en tant que membre, je veux parcourir les informations sur les œufs pour les choisir
-
-US16 : en tant que membre, je veux lire les informations sur les oeufs pour m'informer
-
-Lot fonctionnel 12 - Gestion de l'administrateur
-
-US17 : en tant qu'administrateur, je veux vérifier la validité des recettes pour avoir des recettes cohérentes sur/avec des oeufs
+US15 : en tant qu'administrateur, je veux vérifier la validité des recettes pour avoir des recettes cohérentes sur/avec des oeufs
 
 
 
