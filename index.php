@@ -3,7 +3,7 @@ session_start();
 
 try
 {
-	$bdd = new PDO('mysql:host=localhost;dbname=fresh_eggs;charset=utf8', 'root', 'simplonco');
+	$bdd = new PDO('mysql:host=localhost;dbname=fresheggs;charset=utf8', 'root', 'simplonco');
 }
 catch(Exception $e)
 {
@@ -41,8 +41,6 @@ if(isset($_POST['formconnection']))
     	$message = "Tous les champs doivent être complétés";
   }
 }
-
-
 ?>
 
 
@@ -98,6 +96,23 @@ if(isset($_POST['formconnection']))
 			echo "Mes oeufs sont extra frais du " . date('d/m/Y', strtotime($clutch1)) . " au " . date('d/m/Y', strtotime($extrafresh1)) . '</br>';
 			echo "Mes oeufs sont frais du " . date('d/m/Y', strtotime($fresh)) . " au " . date('d/m/Y', strtotime($deadline1)) . '</br>';
 			echo "La date maximale de consommation de mes oeufs est le " . date('d/m/Y', strtotime($deadline1));
+
+	}
+
+	if(isset($_POST['formdcr']))
+	{
+			 $recettes = $bdd->query('SELECT * FROM recipes ORDER BY rand() LIMIT 1');
+			 while ($reqrecipes = $recettes->fetch())
+			 {
+?>
+				<h1><?php echo $reqrecipes['title']; ?></h1>
+				<p><?php echo $reqrecipes['content']; ?><p>
+
+				<form action="" method="post">
+					<input type="submit" value="Voir la recette" name="formdisplay"/>
+				</form>
+<?php
+			 }
 	}
 ?>
 
@@ -124,6 +139,24 @@ if(isset($_POST['formconnection']))
 		echo "Mes oeufs sont frais du " . date('d/m/Y', strtotime($fresh2)) . " au " . date('d/m/Y', strtotime($extrafreshmax)) .'</br>';
 		echo "Mes oeufs ne sont plus consommables après le " . date('d/m/Y', strtotime($extrafreshmax));
 	}
+	if(isset($_POST['formextrafresh']))
+	{
+			 $recettes = $bdd->query('SELECT * FROM recipes ORDER BY rand() LIMIT 1');
+			 while ($reqrecipes = $recettes->fetch())
+			 {
+?>
+				<h1><?php echo $reqrecipes['title']; ?></h1>
+				<p><?php echo $reqrecipes['content']; ?></p>
+				<?php $id_recette = $reqrecipes['id']?>;
+
+				<form action="recettesselectionnee.php" method="POST">
+	         <input type="submit" value="Voir la recette" name="formdisplay"/>
+	      </form>
+<?php
+			 }
+	}
+
+
 ?>
 
 

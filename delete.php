@@ -1,9 +1,9 @@
 <?php
 session_start();
-
+//if $_SESSION['id'] == $reqrecipes['id'];
 try
 {
-	$bdd = new PDO('mysql:host=localhost;dbname=fresh_eggs;charset=utf8', 'root', 'simplonco');
+	$bdd = new PDO('mysql:host=localhost;dbname=fresheggs;charset=utf8', 'root', 'simplonco');
 }
 catch(Exception $e)
 {

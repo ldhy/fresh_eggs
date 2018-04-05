@@ -1,9 +1,9 @@
 <?php
 session_start();
-
+if($_SESSION['id'] == $_SESSION['id']){ //vérification bon user
 try
 {
-	$bdd = new PDO('mysql:host=localhost;dbname=fresh_eggs;charset=utf8', 'root', 'simplonco');
+	$bdd = new PDO('mysql:host=localhost;dbname=fresheggs;charset=utf8', 'root', 'simplonco');
 }
 catch(Exception $e)
 {
@@ -28,6 +28,8 @@ if(isset($_GET['update']) AND !empty($_GET['update']))
 		die("La recette n'existe pas");
 	}
 }
+}
+
 /*
 if(isset($_POST['formupdate']))
 {
@@ -58,11 +60,16 @@ if(isset($_POST['formupdate']))
 
 			 <h1><?php echo $reqrecipes['title']; ?></h1>
 			 <p><?php echo $reqrecipes['content']; ?><p>
-			 <p>
-			 		<a href="update.php?id=<?= $reqrecipes['id'] ?>">Modifier</a>
-					<a href="delete.php?id=<?= $reqrecipes['id'] ?>">Supprimer</a>
-			 </p>
 
+			 <p>
+				<?php if($_SESSION['id'] == $reqrecipes['user_id'])
+				{ ?>
+			 		<a href="update.php?id=<?= $reqrecipes['id'] ?>"><?php echo 'Modifier'?></a>
+					<a href="delete.php?id=<?= $reqrecipes['id'] ?>"><?php echo 'Supprimer'?></a>
+				<?php
+				}
+				?>
+			 </p>
 
 <?php
 			}

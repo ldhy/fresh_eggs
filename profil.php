@@ -3,7 +3,7 @@ session_start();
 
 try
 {
-	$bdd = new PDO('mysql:host=localhost;dbname=fresh_eggs;charset=utf8', 'root', 'simplonco');
+	$bdd = new PDO('mysql:host=localhost;dbname=fresheggs;charset=utf8', 'root', 'simplonco');
 }
 catch(Exception $e)
 {
@@ -39,6 +39,7 @@ if(isset($_GET['id']) AND $_GET['id'] > 0 )
       <h1>Bienvenue <?php echo $userinfo['pseudo']; ?></h1>
       <p><a href="recipes.php">Voir les recettes</a></p>
       <p><a href="add.php">Partager une recette</a></p>
+			<p><a href="index.php">Accueil</a></p>
 
     </body>
 </html>

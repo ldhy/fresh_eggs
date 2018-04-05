@@ -3,7 +3,7 @@ session_start();
 
 try
 {
-	$bdd = new PDO('mysql:host=localhost;dbname=fresh_eggs;charset=utf8', 'root', 'simplonco');
+	$bdd = new PDO('mysql:host=localhost;dbname=fresheggs;charset=utf8', 'root', 'simplonco');
 }
 catch(Exception $e)
 {
@@ -22,10 +22,11 @@ if(isset($_POST['formaddrecipes']))
     $titlelength = strlen($title);
     if($titlelength <= 255)
     {
-        $insertrecipes = $bdd->prepare('INSERT INTO recipes(title, content) VALUES(:title, :content)');
+        $insertrecipes = $bdd->prepare('INSERT INTO recipes(title, content, user_id) VALUES(:title, :content, :user_id)');
         $insertrecipes->execute(array(
             'title' => $title,
             'content' => $content,
+						'user_id' => $_SESSION['id']
             ));
         $message = "Votre recette a bien été ajoutée";
     }
@@ -39,6 +40,7 @@ if(isset($_POST['formaddrecipes']))
 		$message = "Veuillez compléter tous les champs";
 	}
 }
+
 ?>
 
 
